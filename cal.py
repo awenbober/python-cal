@@ -7,6 +7,8 @@ class Calculator:
 		return firstNum / secondNum
 	def multiplication(self, firstNum, secondNum):
 		return firstNum * secondNum
+	def power(self, firstNum, secondNum):
+		return pow(firstNum, secondNum)
 
 a = int(input("enter first number: "))
 b = int(input("enter second number: "))
@@ -23,3 +25,6 @@ print("Result of division: ",div)
 
 mul = myCalculator.multiplication(a,b)
 print("Result of multiplication: ",mul)
+
+power = myCalculator.power(a,b)
+print("Result of power: ",power)
