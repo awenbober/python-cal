@@ -17,6 +17,8 @@ class Calculator:
 	    return math.log(firstNum)
 	def logarithm2(self,firstNum,secondNum):
 		return math.log(firstNum,secondNum)
+	def sineFunction(self,firstNum):
+		return math.sin(firstNum)
 
 a = int(input("enter first number: "))
 b = int(input("enter second number: "))
@@ -46,3 +48,7 @@ print("Result of logarithm",logarithm1)
 
 logarithm2=myCalculator.logarithm2(a,b)
 print("Result of logarithm",logarithm2)
+
+sineFunction=myCalculator.sineFunction(a)
+print("Result of sine function",sineFunction)
+
