@@ -13,6 +13,8 @@ class Calculator:
 		return pow(firstNum, secondNum)
 	def squareRoot(self,mul):
 		return math.sqrt(mul)
+	def logarithm(self,firstNum):
+	    return math.log(firstNum)
 
 a = int(input("enter first number: "))
 b = int(input("enter second number: "))
@@ -35,3 +37,7 @@ print("Result of power: ",power)
 
 squareRoot=myCalculator.squareRoot(mul)
 print("Result of squareRoot",squareRoot)
+
+#Printing the log base e of input number
+logarithm=myCalculator.logarithm(a)
+print("Result of logarithm",logarithm)
